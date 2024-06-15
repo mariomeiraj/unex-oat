@@ -12,8 +12,7 @@
 // Explicação clara das condições e decisões tomadas pelo programa.
 
 const calcMedia = (nota1, nota2) => {
-	const media = (nota1 + nota2) / 2
-	return media
+	return (media = (nota1 + nota2) / 2)
 }
 
 const alunos = [
